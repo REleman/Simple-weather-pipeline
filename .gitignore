@@ -1,0 +1,5 @@
+config/secrets.env
+.env
+layers/
+__pycache__/
+*.log
