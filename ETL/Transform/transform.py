@@ -5,7 +5,6 @@ from telegram_logging import TelegramHandler, TelegramFormatter
 import glob 
 import os 
 from dotenv import load_dotenv
-import os
 
 load_dotenv(dotenv_path='config/secrets.env')
 

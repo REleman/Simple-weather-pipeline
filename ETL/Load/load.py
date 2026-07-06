@@ -3,7 +3,6 @@ import pandas as pd
 import logging as log
 from telegram_logging import TelegramHandler, TelegramFormatter
 import glob
-import os 
 from dotenv import load_dotenv
 import os
 
