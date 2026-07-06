@@ -7,12 +7,12 @@ ETL пайплайн для сбора данных о погоде из OpenWea
 OpenWeatherMap API → Extract → Raw(json формат) → Transformation → Silver(parquet формат) → Load → Gold(PostgreSQL)
 
 ## Технологии
-Язык - python 3.9+
-Сбор данных - requests
-Работа с файлами и трансформация данных - pandas
-Хранение - JSON → Parquet 
-База данных - PostgreSQL + SQLAlchemy
-Логирование - Telegram и файловые логи
+- Язык - python 3.9+
+- Сбор данных - requests
+- Работа с файлами и трансформация данных - pandas
+- Хранение - JSON → Parquet 
+- База данных - PostgreSQL + SQLAlchemy
+- Логирование - Telegram и файловые логи
 
 ## Установка и запуск 
 **Важно** Для работы нужен python версии 3.9 или выше 
