@@ -24,7 +24,7 @@ git clone https://github.com/REleman/Simple-weather-pipeline.git
 ```
 pip install -r requirements.txt
 ```
-3. Создайте .env файл в папке config/
+3. Создайте secrets.env файл в папке config/
 - API_KEY=ваш_ключ_от_OpenWeatherMap
 - TG_TOKEN=токен_Telegram_бота
 - TG_CHAT_ID=ID_чата
