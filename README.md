@@ -1,6 +1,6 @@
 # Simple Weather ETL Pipeline 
 
-ETL пайплайн для сбора данных о погоде из OpenWeatherMapA PI, трансформации и загрузки в PostgreSQL.
+ETL пайплайн для сбора данных о погоде из OpenWeatherMap API, трансформации и загрузки в PostgreSQL.
 Проект выполнен в рамках портфолио.
 
 ## Архитектура
@@ -20,7 +20,7 @@ OpenWeatherMap API → Extract → Raw(json формат) → Transformation →
 ```
 git clone https://github.com/REleman/Simple-weather-pipeline.git
 ```
-3. Установите зависимости
+2. Установите зависимости
 ```
 pip install -r requirements.txt
 ```
@@ -35,7 +35,11 @@ pip install -r requirements.txt
 4. Запустите пайплайн
 ```
 python ETL/Execute/execute.py
+```
+```
 python ETL/Transform/transform.py
+```
+```
 python ETL/Load/load.py
 ```
 
